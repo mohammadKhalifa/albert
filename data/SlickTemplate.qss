@@ -13,7 +13,7 @@
 }
 
 #frame {
-    padding: 8px 0px;
+    padding: 6px 0px;
     border-radius: 8px;
     background-color: #%background_color%;
     min-width:640px;
@@ -21,7 +21,7 @@
 }
 
 #inputLine {
-    padding: 2px 10px;
+    padding: 0px 8px;
     font-size: 36px;
     selection-color: #%background_color%;
     selection-background-color: #%foreground_color%;
@@ -29,9 +29,10 @@
 }
 
 #settingsButton {
+    margin: 6px 6px 0px 0px;
     color: #%button_color%;
     background-color: transparent;
-    padding: 8px;
+    padding: 2px;
     min-width:14px;
     min-height:14px;
     max-width:14px;
@@ -39,6 +40,10 @@
 }
 
 /********** ListViews ************/
+
+QListView {
+    background: transparent;
+}
 
 QListView::item:selected {
     background: #%selection_background_color%;
@@ -64,21 +69,19 @@ QListView QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
     background: transparent;
 }
 
-/********** actionList **********/
-
-QListView#actionList {
-    font-size: 20px;
-    background: transparent;
-}
-
 /********** proposalList **********/
 
 QListView#proposalList {
     icon-size: 40px;
     font-size: 24px;
-    background: transparent;
 }
 
 QListView#proposalList::item{
     padding: 8px 0px 0px 0px;
+}
+
+/********** actionList **********/
+
+QListView#actionList {
+    font-size: 20px;
 }

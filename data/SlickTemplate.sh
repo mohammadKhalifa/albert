@@ -12,6 +12,6 @@ function makeStyle(){
 }
 
 #makeStyle            bg       fg       button   scroll   selection output
-makeStyle "$TEMPLATE" "fcfcfc" "202020" "e0e0e0" "e0e0e0" "e0e0e0" "$1/Spotlight.qss"
-makeStyle "$TEMPLATE" "030303" "d0d0d0" "404040" "404040" "404040" "$1/Spotlight Dark.qss"
+makeStyle "$TEMPLATE" "fcfcfc" "808080" "e0e0e0" "c0c0c0" "e0e0e0" "$1/Spotlight.qss"
+makeStyle "$TEMPLATE" "030303" "808080" "202020" "404040" "202020" "$1/Spotlight Dark.qss"
 
